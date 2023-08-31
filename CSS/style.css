@@ -44,6 +44,7 @@ html{
 }
 
 #input input{
+    display: flex;
     align-items: center;
     justify-content: center;
     margin: 2rem 60rem; 
@@ -93,4 +94,62 @@ a{
     font-size: 20rem;
     text-align: center;
     margin: 7rem auto;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .head {
+        font-size: 5rem;
+    }
+    
+    .headsub {
+        margin: 8rem 10rem 5rem 10rem;
+    }
+    
+    .txt{
+        font-size: 15rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .head {
+        font-size: 4rem;
+    }
+    
+    .headsub {
+        margin: 5rem 5rem 3rem 5rem;
+    }
+
+    .txt{
+        font-size: 10rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .head {
+        font-size: 3rem;
+    }
+    
+    .headsub {
+        margin: 3rem 2rem 2rem 2rem;
+    }
+
+    .txt{
+        font-size: 8rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .head {
+        font-size: 2.5rem;
+    }
+    
+    .headsub {
+        margin: 2rem 1rem 1rem 1rem;
+    }
+
+    .txt{
+        font-size: 5rem;
+    }
 }
